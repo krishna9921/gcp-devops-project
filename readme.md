@@ -1,0 +1,1 @@
+# This is our new GCP DEVOPS Project checking the rules
