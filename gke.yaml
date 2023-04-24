@@ -3,10 +3,10 @@ kind: Deployment
 metadata:
   name: gcp-devops-gke
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: gcp
-  replicas: 1
   template:
     metadata:
       labels:
